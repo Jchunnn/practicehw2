@@ -368,7 +368,7 @@ h6{
 }
 /* 打折 */
 .discount{
-	background-color: var(--primary-200);
+	background-color: #E8FEC5;
 	text-align: center;
 	justify-content: center;
 }
