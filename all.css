@@ -103,6 +103,7 @@ a:hover{
 	--primary-200:#E8FEC5;
 	--primary-400:#57A203;
 	--neutral-white:#ffffff;
+	--neutral-100:#F8F9FA;
 	--neutral-300:#DEE2E6;
 	--neutral-500:#ADB5BD;
 	--neutral-600:#6C757D;
@@ -187,20 +188,38 @@ h6{
 .p-12{
 	padding: 12px;
 }
+.pt-12{
+	padding-top: 12px;
+}
 .pt-11-2{
 	padding-top: 11.2px;
 }
 .pt-48{
 	padding-top: 48px;
 }
+.pt-33-5{
+	padding-top: 33.5px;
+}
 .pt-14{
 	padding-top: 14px;
+}
+.pt-9-5{
+	padding-top: 9.5px;
 }
 .pt-4{
 	padding-top: 4px;
 }
+.pb-33-5{
+	padding-bottom: 33.5px;
+}
 .pb-14{
 	padding-bottom: 14px;
+}
+.pb-12{
+	padding-bottom: 12px;
+}
+.pb-9-5{
+	padding-bottom: 9.5px;
 }
 .pb-8{
 	padding-bottom: 8px;
@@ -223,20 +242,29 @@ h6{
 .pl-66-53{
 	padding-left: 66.53px;
 }
+.mt-64{
+	margin-top: 64px;
+}
 .mt-25{
 	margin-top: 25px;
 }
-.mb-32{
-	margin-bottom: 32px;
-}
-.mb-48{
-	margin-bottom: 48px;
+.mt-24{
+	margin-top: 24px;
 }
 .mb-64{
 	margin-bottom: 64px;
 }
+.mb-48{
+	margin-bottom: 48px;
+}
+.mb-40{
+	margin-bottom: 40px;
+}
 .mb-32{
 	margin-bottom: 32px;
+}
+.mb-24{
+	margin-bottom: 24px;
 }
 .mb-16{
 	margin-bottom: 16px;
@@ -265,6 +293,9 @@ h6{
 .mr-0{
 	margin-right: 0;
 }
+.ml-763{
+	margin-left: 763px;
+}
 /* jc ai */
 .jcsb{
 	justify-content: space-between;
@@ -292,6 +323,19 @@ h6{
 .blue{
 	width: 64px;
 }
+.footer{
+	background-color: var(--neutral-100);
+}
+.logo-bottom{
+	width: 1296px;
+	justify-content: center;
+}
+.nav-b{
+	border-bottom: 1px solid var(--neutral-300);
+}
+.copyright{
+	text-align: center;
+}
 
 /* 小框框顏色 */
 .bg-primary-200{
@@ -311,4 +355,27 @@ h6{
 }
 .breadcrumb-link{
 	color: var(--neutral-600);
+}
+/* 下外框 */
+.material{
+	border-bottom: 1px solid var(--neutral-300);
+}
+.notice{
+	border-bottom: 1px solid var(--neutral-300);
+}
+.maintain{
+	border-bottom: 1px solid var(--neutral-300);
+}
+/* 打折 */
+.discount{
+	background-color: var(--primary-200);
+	text-align: center;
+	justify-content: center;
+}
+.discount-btn a{
+	display: block;
+	border: var(--neutral-900);
+	border-radius: 5px;
+	background-color: var(--neutral-900);
+	color: var(--neutral-white);
 }
